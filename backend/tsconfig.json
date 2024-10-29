@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "outDir": "./src",
+    "target": "es2016",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules", "**/*.spec.ts"] // Include only TypeScript files in the build process. Exclude any spec files.
+}
